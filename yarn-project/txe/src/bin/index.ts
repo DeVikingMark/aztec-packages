@@ -30,7 +30,7 @@ async function main() {
     timeoutMs: 1e3 * 60 * 5,
   });
 
-  logger.info(`TXE listening on port ${port}`);
+  logger.info('TXE listening on port %s', port);
 }
 
 main().catch(err => {
